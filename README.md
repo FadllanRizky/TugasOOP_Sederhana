@@ -142,6 +142,3 @@ javac tugas/pertemuan2/*.java
 ```bash
 java tugas.pertemuan2.Main
 ```
-
-```
-**Fadllan Rizky**
