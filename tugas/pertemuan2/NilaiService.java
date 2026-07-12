@@ -4,7 +4,7 @@ public class NilaiService {
 
     public double hitungNilaiAkhir(Mahasiswa mhs){
 
-        return (mhs.getNilaiTugas()*0.20)
+        return (mhs.getNilaiTugas()*0.30)
             +  (mhs.getNilaiUts()*0.30)
             +  (mhs.getNilaiUas()*0.40);
     }
