@@ -39,18 +39,19 @@ Nilai Akhir = (30% × Nilai Tugas)
 
 | Nilai Akhir | Grade |
 | ----------- | ----- |
-| ≥ 85        | A     |
+| ≥ 85        | A+     |
+| ≥ 80        | A     |
 | ≥ 70        | B     |
-| ≥ 55        | C     |
-| ≥ 40        | D     |
-| < 40        | E     |
+| ≥ 60        | C     |
+| ≥ 50        | D     |
+| < 50        | E     |
 
 ---
 
 ## ✅ Status Kelulusan
 
-* Nilai Akhir ≥ 60 → **LULUS**
-* Nilai Akhir < 60 → **TIDAK LULUS**
+* Nilai Akhir ≥ 70 → **LULUS**
+* Nilai Akhir < 70 → **TIDAK LULUS**
 
 ---
 
@@ -142,44 +143,5 @@ javac tugas/pertemuan2/*.java
 java tugas.pertemuan2.Main
 ```
 
----
-
-## 📷 Contoh Output
-
-```text
-Input Jumlah Mahasiswa :
-2
-
-Data Mahasiswa Ke-1
-NIM           : 02042411014
-Nama          : Fadllan Rizky
-Nilai Tugas   : 90
-Nilai UTS     : 90
-Nilai UAS     : 90
-
-Data Mahasiswa Ke-2
-NIM           : 02042411015
-Nama          : Tamro
-Nilai Tugas   : 50
-Nilai UTS     : 50
-Nilai UAS     : 50
-
-===============================
-Data Mahasiswa
-===============================
-
-NIM              : 02042411014
-Nama             : Fadllan Rizky
-Nilai Akhir      : 90.0
-Grade            : A
-Status           : LULUS
-
-NIM              : 02042411015
-Nama             : Tamro
-Nilai Akhir      : 50.0
-Grade            : D
-Status           : TIDAK LULUS
 ```
-
----
 **Fadllan Rizky**
