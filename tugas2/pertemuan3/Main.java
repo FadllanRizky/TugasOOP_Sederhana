@@ -231,7 +231,7 @@ public class Main {
         }
     }
 
-    // 🔎 Fitur: Pencarian berdasarkan Kode atau Merk
+    // Fitur: Pencarian berdasarkan Kode atau Merk
     public static void cariKendaraanMenu() {
         if (daftarKendaraan.isEmpty()) {
             System.out.println("\n[ Data Kendaraan Masih Kosong ]");
