@@ -1,0 +1,67 @@
+package tugas2.pertemuan3;
+
+public class Kendaraan {
+ 
+    private String kodeKendaraan;
+    private String merk;
+    private String warna;
+    private double harga;
+
+    public Kendaraan(){
+
+        
+    }
+
+    public Kendaraan(String kodeKendaraan, String merk, String warna, double harga){
+
+        this.kodeKendaraan = kodeKendaraan;
+        this.merk = merk;
+        this.warna = warna;
+        this.harga = harga;
+    }
+
+    public String getKodeKendaraan() {
+        return kodeKendaraan;
+    }
+
+    
+    public String getMerk() {
+        return merk;
+    }
+
+    public String getWarna() {
+        return warna;
+    }
+
+    public double getHarga() {
+        return harga;
+    }
+
+
+    public void setKodeKendaraan(String kodeKendaraan) {
+        this.kodeKendaraan = kodeKendaraan;
+    }
+
+    public void setMerk(String merk) {
+        this.merk = merk;
+    }
+
+    public void setWarna(String warna) {
+        this.warna = warna;
+    }
+
+    public void setHarga(double harga) {
+        this.harga = harga;
+    }
+
+    
+
+    public void tampilkanInfo(){
+        System.out.println("Kode Kendaraan : " + kodeKendaraan);
+        System.out.println("Merek Kendaraan : " + merk);
+        System.out.println("Warna Kendaraan : " + warna);
+        System.out.println("Harga Kendaraan : Rp." + Main.kursIndonesia.format(harga));
+    }
+
+
+}
