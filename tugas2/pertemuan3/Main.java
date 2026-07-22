@@ -92,7 +92,7 @@ public class Main {
         String kt = input.nextLine().toUpperCase();
 
         if (!kategori.containsKey(kt)) {
-            System.out.println("[ Peringatan: Kategori tidak dikenali! Kembali ke menu. ]");
+            System.out.println("[ Peringatan: Kategori tidak dikenali! Kembali ke Menu. ]");
             return;
         }
 
@@ -197,7 +197,7 @@ public class Main {
 
     public static void lihatData() {
         if (daftarKendaraan.isEmpty()) {
-            System.out.println("\n[ Data Kendaraan Masih Kosong ]");
+            System.out.println("\n[ Data Kendaraan Masih Kosong Kembali ke Menu. ]");
             return;
         }
 
@@ -213,7 +213,7 @@ public class Main {
 
     public static void lihatDetailBerdasarkanNomor() {
         if (daftarKendaraan.isEmpty()) {
-            System.out.println("\n[ Data Kendaraan Masih Kosong ]");
+            System.out.println("\n[ Data Kendaraan Masih Kosong Kembali ke Menu. ]");
             return;
         }
 
@@ -234,7 +234,7 @@ public class Main {
     // Fitur: Pencarian berdasarkan Kode atau Merk
     public static void cariKendaraanMenu() {
         if (daftarKendaraan.isEmpty()) {
-            System.out.println("\n[ Data Kendaraan Masih Kosong ]");
+            System.out.println("\n[ Data Kendaraan Masih Kosong Kembali ke Menu. ]");
             return;
         }
 
@@ -276,7 +276,7 @@ public class Main {
 
     public static void tampilkanStatistik() {
         if (daftarKendaraan.isEmpty()) {
-            System.out.println("\n[ Data Kendaraan Masih Kosong ]");
+            System.out.println("\n[ Data Kendaraan Masih Kosong Kembali ke Menu. ]");
             return;
         }
 
